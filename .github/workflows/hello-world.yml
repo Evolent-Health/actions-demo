@@ -1,0 +1,13 @@
+name: "Npm CodeQL"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say_hello:
+    name: SayHello
+    runs-on: self-hosted 
+
+    steps:
+    - name: Hello World
+      run: echo 'Hello World'
